@@ -603,12 +603,16 @@ footer .social-media i:hover{
     }
     .menu-btn i.active:before{
         content: "\00d7";
+        font-weight:800 ;
+        border: 1px solid var(--primary);
+        border-radius: 50%;
+
     }
     .navbar .menu{
         position: fixed;
         height: 100vh;
-        width: 100%;
-        left: -100% ;
+        width: 30%;
+        right: -100% ;
         top: 0;
         background:var(--dark);
         text-align:center;
@@ -616,8 +620,8 @@ footer .social-media i:hover{
         transition:all 0.5s ease ;
     }
     .navbar .menu.active{
-        left: 0;
-        color: magenta;
+        right: 0;
+        border-radius: 22%;
     }
     .navbar .menu li{
         display:block;
