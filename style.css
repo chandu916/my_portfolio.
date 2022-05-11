@@ -602,10 +602,14 @@ footer .social-media i:hover{
         z-index: 999;
     }
     .menu-btn i.active:before{
+
         content: "\00d7";
         font-weight:800 ;
         border: 1px solid var(--primary);
         border-radius: 50%;
+        position: fixed;
+        right: 50px;
+        background: var(--primary);
 
     }
     .navbar .menu{
