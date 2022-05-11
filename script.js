@@ -44,7 +44,7 @@ $(document).ready(function(){
         loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
-        Responsive:{
+        responsive:{
             0:{
                 items: 1,
                 nav: false
