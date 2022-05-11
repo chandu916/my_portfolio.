@@ -610,13 +610,13 @@ footer .social-media i:hover{
     }
     .navbar .menu{
         position: fixed;
-        height: 100vh;
+        height: 75vh;
         width: 30%;
         right: -100% ;
         top: 0;
         background:var(--dark);
         text-align:center;
-        padding-top: 80px ;
+        padding-top: 75px ;
         transition:all 0.5s ease ;
     }
     .navbar .menu.active{
