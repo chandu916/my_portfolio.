@@ -276,7 +276,7 @@ section .title::after{
     color: var(--primary);
 }
 
-                        /* services section start  */
+                        /* Projects section start  */
 
 .services,.teams{
     color: var(--secondary);
@@ -321,6 +321,7 @@ section .title::after{
     color: var(--secondary);
 }
 .services .serv-content .card .text{
+    color:cadetblue;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
