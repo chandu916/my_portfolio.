@@ -383,16 +383,16 @@ section .title::after{
     width: 90%;
 }
 .skills .skills-content .right .js::before{
-    width: 60%;
+    width: 50%;
 }
 .skills .skills-content .right .python::before{
     width: 80%;
 }
 .skills .skills-content .right .sql::before{
-    width: 50%;
+    width: 85%;
 }
 .skills .skills-content .right .linux::before{
-    width: 95%;
+    width: 80%;
 }
 
                         /* teams styling starts */
