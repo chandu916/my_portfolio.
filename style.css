@@ -43,7 +43,7 @@ html{
     justify-content: space-between;
 }
 /* heartbeat affect */
-.navbar .logo {
+/* .navbar .logo {
     animation-name: heartbeat;
     animation: pulse 1s linear infinite ;
     transform: rotate(-45deg) scale(1);
@@ -62,7 +62,7 @@ html{
         transform: scale(1);
         opacity: 0;
     }
-}
+} */
 .navbar .logo a {
     color: var(--secondary);
     font-size: 35px;
