@@ -362,7 +362,7 @@ section .title::after{
     font-size: 20px;
 }
 .skills .skills-content .right .line{
-    height: 5px;
+    height: 7px;
     width: 100%;
     background:lightgray;
     position: relative;
