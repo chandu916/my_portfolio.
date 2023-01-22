@@ -532,12 +532,12 @@ section .title::after{
 .teams .title::before{
     /* background:var(--secondary); */
 }
-.Projects .title::after,
+/* .Projects .title::after,
 .teams .title::after{
     content: "what I did";
-    /* background: var(--dark); */
+     background: var(--dark); 
     font-family:var(--font1);
-}
+} */
 .Projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
