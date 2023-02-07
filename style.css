@@ -528,11 +528,11 @@ section .title::after{
     color: var(--secondary);
     /* background: var(--dark); */
 }
-.Projects .title::before,
+/* .Projects .title::before,
 .teams .title::before{
     /* background:var(--secondary); */
 }
-/* .Projects .title::after,
+.Projects .title::after,
 .teams .title::after{
     content: "what I did";
      background: var(--dark); 
