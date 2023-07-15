@@ -529,7 +529,7 @@ section .title::after{
 
 .Projects,.teams{
     color: var(--secondary);
-    /* background: var(--dark); */
+    background: var(--dark);
 }
 .Projects .title::before,
 .teams .title::before{
