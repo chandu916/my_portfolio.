@@ -531,16 +531,16 @@ section .title::after{
     color: var(--secondary);
     /* background: var(--dark); */
 }
-/* .Projects .title::before,
+.Projects .title::before,
 .teams .title::before{
-    /* background:var(--secondary); */
+    background:var(--secondary);
 }
 .Projects .title::after,
 .teams .title::after{
     content: "what I did";
      background: var(--dark); 
     font-family:var(--font1);
-} */
+} 
 .Projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
