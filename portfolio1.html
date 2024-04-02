@@ -156,22 +156,31 @@
                     <!-- left-side part -->
                     <div class="column left">
                         <div class="text">My Skills & Experiences.</div>
-                        <p> In my professional journey, I prioritize my fervor for programming and ethical hacking.
-                             I am deeply committed to mastering Data Structures and Algorithms, regularly engaging in 
-                             problem-solving challenges on platforms such as LeetCode to refine my skills. Simultaneously, 
-                             my passion for ethical hacking propels me to explore the nuances of cybersecurity, consistently 
-                             striving to enhance my proficiency. Alongside my dedication to programming and hacking, 
-                             I possess a solid foundation in frontend web development. With expertise in web designing 
-                             roles across various projects, I excel in crafting captivating user experiences. My pursuit 
-                             of excellence extends to daily practice and refinement, ensuring continuous growth and 
-                             adaptability to evolving technologies and challenges. This relentless pursuit of knowledge and 
-                             skill refinement enables me to seamlessly integrate into projects, contributing value 
-                             through a combination of creativity, technical expertise, and a steadfast commitment to
-                             improvement.
-                            
-                        </p>  
-                        <a href="#">read more</a>
+                        <p class="initial-content">
+                            In my professional journey, I prioritize my fervor for programming and ethical hacking. I am deeply committed to mastering Data Structures and Algorithms, regularly engaging in problem-solving challenges on platforms such as LeetCode to refine my skills. Simultaneously, my passion for ethical hacking propels me to explore the nuances of cybersecurity, consistently striving to enhance my proficiency.
+                        </p>
+                        <p class="additional-content" style="display: none;">
+                            Alongside my dedication to programming and hacking, I possess a solid foundation in frontend web development. With expertise in web designing roles across various projects, I excel in crafting captivating user experiences. My pursuit of excellence extends to daily practice and refinement, ensuring continuous growth and adaptability to evolving technologies and challenges. This relentless pursuit of knowledge and skill refinement enables me to seamlessly integrate into projects, contributing value through a combination of creativity, technical expertise, and a steadfast commitment to improvement.
+                        </p>
+                        <a href="#" onclick="toggleContent()">read more</a>
                     </div>
+                    
+                    <script>
+                        function toggleContent() {
+                            var initialContent = document.querySelector('.initial-content');
+                            var additionalContent = document.querySelector('.additional-content');
+                            var readMoreLink = document.querySelector('a[href="#"]');
+                            
+                            if (additionalContent.style.display === 'none') {
+                                additionalContent.style.display = 'block';
+                                readMoreLink.textContent = 'read less';
+                            } else {
+                                additionalContent.style.display = 'none';
+                                readMoreLink.textContent = 'read more';
+                            }
+                        }
+                    </script>
+                    
                     <!-- right-side part -->
                     <div class="column right">
                         <div class="bars">
