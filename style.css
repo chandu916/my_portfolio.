@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 :root{
-    --primary:rgb(246,202,121);
+    --primary:rgb(195, 100, 100);
     --secondary:#fff;
     --dark:#111;
     --font1:cursive;
@@ -177,7 +177,6 @@ html{
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
 }
 section{
@@ -218,9 +217,12 @@ section .title::after{
     font-family:var(--font1);
 }  
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
+    filter: drop-shadow(0 0 0.75rem var(--primary));
+    display: block;
+    margin-top:-100px;
+    height: 700px;
+    width: 500px;
+    object-fit:contain;
     border-radius: 16px;
 }
 .about .about-content .right{
@@ -263,7 +265,19 @@ section .title::after{
 }
 
                         /* Projects section start  */
-
+.project-links{
+    padding: 5px;
+}  
+.project-links a{
+    padding: 5px;
+    justify-content: space-between;
+    color: rgb(0, 187, 255);
+    font-weight: 400;
+} 
+.project-links a:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}                     
 .Projects,.teams{
     color: var(--secondary);
 
@@ -317,20 +331,24 @@ section .title::after{
 .skills .skills-content .column{
     width:calc(50% - 40px);
 }
-.skills .skills-content .left .text{
+.skills .skills-content .left .text,
+.skills .skills-content .right .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
-    text-align: justify;
-}
-.skills .skills-content .left a:hover{
+
+.skills .skills-content .left .icons{
     color: var(--primary);
     background: none;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;  
+.skills .skills-content .right .icons,
+.skills .skills-content .left .icons{
+    margin-bottom: 15px;
+    display:wrap;
+    justify-content: space-around; 
+    padding: 5px; 
+    margin: 10px;
 }
 .skills .skills-content .right .info{
     display: flex;
@@ -568,7 +586,6 @@ footer .social-media i:hover{
 
 @media(max-width:1105px){
     .about .about-content .left img{
-        height: 350px;
         width: 350px;
     }   
 }
@@ -600,7 +617,7 @@ footer .social-media i:hover{
         width: 100%;
         right: -100% ;
         top: 0;
-        background:rgba(29, 29, 29, 0.409);
+        background:rgba(22, 22, 22, 0.48);
         text-align:center;
         padding-top: 75px ;
         transition:all 0.5s ease ;
@@ -616,6 +633,7 @@ footer .social-media i:hover{
         display:inline-flex;
         margin: 20px 0;
         font-size:18px ;
+        color: var(--primary);
         padding-left: 10px;
     } 
     .home .home-content .text-2{
