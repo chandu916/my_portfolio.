@@ -217,10 +217,9 @@ section .title::after{
     font-family:var(--font1);
 }  
 .about .about-content .left img{
-    filter: drop-shadow(0 0 0.75rem var(--primary));
+    filter: drop-shadow(0 0 0.95rem var(--primary));
     display: block;
-    margin-top:-100px;
-    height: 700px;
+    height: 400px;
     width: 500px;
     object-fit:contain;
     border-radius: 16px;
@@ -650,7 +649,7 @@ footer .social-media i:hover{
     .about .about-content .left{
         display:flex;
         justify-content: center;
-        margin: 0 auto 60px;
+        margin: 0 auto 30px;
     }
     .about .about-content .right{
         flex: 100%;
