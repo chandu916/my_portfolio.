@@ -348,7 +348,7 @@ section .title::after{
     display:wrap;
     justify-content: space-around; 
     padding: 5px; 
-    margin: 10px;
+    margin: 8px;
 }
 .skills .skills-content .right .info{
     display: flex;
