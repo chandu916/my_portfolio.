@@ -337,11 +337,6 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-
-.skills .skills-content .left .icons{
-    color: var(--primary);
-    background: none;
-}
 .skills .skills-content .right .icons,
 .skills .skills-content .left .icons{
     margin-bottom: 15px;
